@@ -6,6 +6,9 @@ function getPigLatin() {
 
   //your code goes here
 
+  //change the HTML content of a <p> element with id="pig-latin-word": 
+  document.getElementById("pig-latin-word").innerHTML = str;
+
 } //end of function getPigLatin()
 
 document.addEventListener('DOMContentLoaded', function(){
